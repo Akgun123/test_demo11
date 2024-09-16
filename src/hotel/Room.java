@@ -62,5 +62,10 @@ public class Room {
     }
 
 
+    public void displayRoomDetails() {
+    }
+
+    public void cancelBooking() {
+    }
 }
 
