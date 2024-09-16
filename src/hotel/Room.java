@@ -41,19 +41,19 @@ public class Room {
     //metod öfr att avboka rum
     // metod föt att visa detal rum
     public void bookRoom() {
-        if (! isBooked) {
+        if (!isBooked) {
             isBooked = true;
             System.out.println("room " + roomNr + "is now bokked.");
-        } else{
+        } else {
             System.out.println("room " + roomNr + " is already booked.");
 
-            public void cancelBooking() {
-                if (isBooked)  {
+            public void cancelBooking () {
+                if (isBooked) {
                     isBooked = false;
                     System.out.println("room" + roomNr + "is nott bokked");
 
 
-                    public void displayRoomDetalis() {
+                    public void displayRoomDetalis () {
                         System.out.println("room" + roomNr + "with capacity " + capacity + "guest.");
                     }
                 }
